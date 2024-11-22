@@ -8,3 +8,10 @@
     background: image-url("photos/#{$name}.jpg") no-repeat;
   }
 }
+
+
+@each $name in $list-names-2 {
+    .photo-#{$name} {
+      background: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+  }
